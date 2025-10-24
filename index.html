@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Hayat-Jiyan Restaurant in Wuppertal – authentische anatolische Küche, moderne Atmosphäre, warme Gastfreundschaft. Reservieren Sie jetzt Ihren Tisch."
+    />
+    <title>Hayat-Jiyan Restaurant | Moderne anatolische Küche in Wuppertal</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="hero" id="top">
+      <nav class="nav">
+        <a class="brand" href="#top">Hayat-Jiyan</a>
+        <div class="nav-links">
+          <a href="#highlights">Favoriten</a>
+          <a href="#menu">Speisekarte</a>
+          <a href="#contact">Kontakt</a>
+        </div>
+      </nav>
+      <div class="hero-content">
+        <div class="hero-text">
+          <p class="eyebrow">Seit 1998 in Wuppertal</p>
+          <h1>Frische anatolische Küche</h1>
+          <p class="lead">
+            Handgemachte Meze, Grillgerichte vom Holzkohlengrill und süße Klassiker –
+            serviert in entspannter Atmosphäre.
+          </p>
+          <div class="hero-actions">
+            <a class="primary-button" href="#menu">Zur Speisekarte</a>
+            <a class="ghost-button" href="https://maps.app.goo.gl/XF5LRkoz2VXKV5CT8"
+              >Jetzt besuchen</a
+            >
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="menu" id="menu">
+        <div class="section-heading">
+          <p class="eyebrow">Speisekarte</p>
+          <h2>Speisekarte</h2>
+          <p class="section-lead">
+            Alle Gerichte werden täglich frisch und hausgemacht zubereitet. 
+            Wechselnde Tagesgerichte nicht inkludiert.
+          </p>
+        </div>
+        <div class="menu-layout">
+          <div
+            class="menu-categories"
+            role="tablist"
+            aria-label="Speisekategorien"
+          ></div>
+          <div
+            class="menu-content"
+            id="menu-panel"
+            role="tabpanel"
+            tabindex="0"
+            aria-live="polite"
+          ></div>
+        </div>
+      </section>
+
+      <section class="highlights" id="highlights">
+        <div class="section-heading">
+          <h2>Unsere Favoriten</h2>
+          <p class="section-lead">
+            Drei Teller, die bei jedem Besuch gehen: frisch, aromatisch und original Hayat.
+          </p>
+        </div>
+        <div class="highlight-grid">
+          <article class="highlight-card">
+            <h3>HAYAT-Grillteller</h3>
+            <p>Mix aus Köfte, Şiş und Gemüse – perfekt zum Teilen.</p>
+            <span class="price">17,50&nbsp;€</span>
+          </article>
+          <article class="highlight-card">
+            <h3>Iskender Kebap</h3>
+            <p>Geröstetes Brot, Joghurt, Tomate und zartes Lamm.</p>
+            <span class="price">12,80&nbsp;€</span>
+          </article>
+          <article class="highlight-card">
+            <h3>Zucchinipuffer</h3>
+            <p>Leicht, knusprig und vegetarisch – hausgemachte Kräuterdip.</p>
+            <span class="price">11,50&nbsp;€</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="visit" id="contact">
+        <div class="visit-info">
+          <div class="section-heading">
+            <h2>Komm vorbei!</h2>
+          </div>
+          <div class="visit-grid">
+            <div>
+              <h3>Adresse</h3>
+              <p>Schreinerstraße 28<br />42105 Wuppertal</p>
+              <a class="ghost-button" href="https://maps.app.goo.gl/XF5LRkoz2VXKV5CT8">
+                Auf Google Maps öffnen
+              </a>
+            </div>
+            <div>
+              <h3>Kontakt</h3>
+              <p>
+                Telefon: <a href="tel:+49202308329">+49 202 308329</a><br />
+                Di–Sa: 18:00 – 00:00 Uhr<br />
+                Sonntag &amp; Montag: Ruhetag
+              </p>
+              <a class="primary-button" href="tel:+49202308329">Anrufen</a>
+            </div>
+          </div>
+        </div>
+        <div class="map-wrapper">
+          <iframe
+            title="Hayat Restaurant auf Google Maps"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2496.7480480359186!2d7.13548767664248!3d51.2605481717583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b8d7ac00cb9a29%3A0xdf5761f218b776e9!2sHayat-Jiyan%20Restaurant!5e0!3m2!1sen!2sgr!4v1761301299413!5m2!1sen!2sgr"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>&copy; <span id="current-year"></span> Hayat-Jiyan Restaurant. Alle Rechte vorbehalten.</p>
+      <div class="footer-links">
+        <a href="#menu">Speisekarte</a>
+        <a href="#contact">Kontakt</a>
+        <a href="Impressum.md">Impressum</a>
+        <a href="Datenschutz.md">Datenschutz</a>
+        <a href="#top">Nach oben</a>
+      </div>
+    </footer>
+
+    <script>
+      const menuData = [
+        {
+          id: "kalte-vorspeisen",
+          title: "Kalte Vorspeisen",
+          sections: [
+            {
+              items: [
+                { name: "1 Portion Oliven", price: "5,00 €" },
+                { name: "2 Portion Peperoni", price: "5,00 €" },
+                { name: "3 Cacık (Knoblauch, Gurken, Joghurt)", price: "5,40 €" },
+                { name: "4 Spinat Ezme", price: "5,00 €" },
+                { name: "5 Sigara Böreği", price: "8,50 €" },
+                { name: "6 Havuç Ezme", price: "5,00 €" },
+                { name: "7 Muhammara", price: "5,80 €" },
+                { name: "8 Haydari Ezme", price: "5,00 €" },
+                { name: "9 Gefüllte Weinblätter", price: "7,50 €" },
+                { name: "10 Türkischer Teller", price: "9,00 €" },
+                { name: "11 Kalte Platte", price: "10,00 €" },
+                { name: "12 Auberginen Ezme", price: "5,80 €" },
+                { name: "13 Gebratenes Gemüse", price: "8,50 €" },
+                { name: "14 Antep-Ezme", price: "5,00 €" },
+                { name: "15 Humuz", price: "5,80 €" },
+                { name: "16 HAYAT-Vorspeisenteller", price: "11,80 €" }
+              ]
+            }
+          ]
+        },
+        {
+          id: "warme-vorspeisen",
+          title: "Warme Vorspeisen",
+          sections: [
+            {
+              items: [
+                { name: "30 Überbackene Champignons", price: "8,90 €" },
+                { name: "33 Überbackener Hirtenkäse", price: "8,90 €" },
+                { name: "83 Linsensuppe", price: "6,00 €" }
+              ],
+              note: "Extra-Portion Brot: 1,50 €"
+            }
+          ]
+        },
+        {
+          id: "salate",
+          title: "Salate",
+          sections: [
+            {
+              items: [
+                { name: "20 Hirse-Cacık-Salat", price: "9,50 €" },
+                { name: "21 HAYAT-Salat (mit Thunfisch)", price: "9,50 €" },
+                { name: "22 Hirtensalat", price: "9,50 €" },
+                { name: "24 Gemischter Salat mit Hirtenkäse", price: "9,50 €" },
+                { name: "28 Hindili Salat (mit Putenfleisch)", price: "10,50 €" },
+                { name: "29 Tomaten-Joghurt-Salat", price: "8,50 €" }
+              ]
+            }
+          ]
+        },
+        {
+          id: "doenergerichte",
+          title: "Dönergerichte",
+          sections: [
+            {
+              items: [
+                { name: "91 Iskender Kebap", price: "12,80 €" },
+                { name: "92 Döner mit Reis und Joghurt", price: "12,80 €" },
+                { name: "93 Fleischteller (Döner, Lamms pieß, Köfte)", price: "16,00 €" }
+              ]
+            }
+          ]
+        },
+        {
+          id: "pfanne",
+          title: "Aus der Pfanne",
+          sections: [
+            {
+              items: [
+                { name: "36 Zucchinipuffer", price: "11,50 €" },
+                { name: "37 Humuz-Spinat-Köfte (veg.)", price: "11,50 €" },
+                { name: "38 Teigtaschen mit Gemüse", price: "11,50 €" },
+                { name: "43 Falafel mit Sauce und Salat", price: "11,50 €" },
+                { name: "44 Putencurry", price: "13,50 €" },
+                { name: "46 Tirit mit Salat", price: "13,80 €" },
+                { name: "47 Arnavut Cigeri (gebratene Leber)", price: "12,50 €" },
+                { name: "48 Gemüsepfanne", price: "10,00 €" },
+                { name: "49 Gemüsepfanne mit Putenfleisch", price: "13,50 €" },
+                { name: "78 Pfannkuchen mit Hackfleischfüllung", price: "11,50 €" }
+              ]
+            }
+          ]
+        },
+        {
+          id: "ofen",
+          title: "Aus dem Ofen",
+          sections: [
+            {
+              items: [
+                { name: "50 Spinatauflauf mit Kartoffeln &amp; Käse", price: "10,50 €" },
+                { name: "51 Spinatauflauf mit Bulgur &amp; Hirtenkäse", price: "10,50 €" },
+                { name: "52 Brokkoliauflauf", price: "10,50 €" },
+                { name: "53 Auberginenauflauf", price: "10,50 €" },
+                { name: "55 Nudelauflauf", price: "10,50 €" },
+                { name: "56 Gemüseauflauf", price: "10,50 €" }
+              ],
+              note: "Alle Aufläufe wahlweise mit oder ohne Fleisch – mit Fleisch + 2,50 €"
+            }
+          ]
+        },
+        {
+          id: "grill",
+          title: "Vom Grill",
+          sections: [
+            {
+              items: [
+                { name: "57 Türkische Wurst mit Paprika &amp; Salat", price: "12,00 €" },
+                { name: "59 Şiş mit Lammfleisch", price: "14,00 €" },
+                { name: "60 Hähnchenspieß", price: "13,50 €" },
+                { name: "62 Köfte", price: "13,50 €" },
+                { name: "63 Köfte mit Hirtenkäsefüllung", price: "15,00 €" },
+                { name: "64 Adana Şiş", price: "13,00 €" },
+                { name: "65 Adana Şiş mit Joghurtsauce", price: "14,00 €" },
+                { name: "66 Tomaten-Kebab", price: "14,50 €" },
+                { name: "67 Pirzola (Lammkoteletts)", price: "17,00 €" },
+                { name: "68 Fleischplatte", price: "16,50 €" },
+                { name: "69 HAYAT-Grillteller", price: "17,50 €" }
+              ]
+            }
+          ]
+        },
+        {
+          id: "beilagen",
+          title: "Beilagen",
+          sections: [
+            {
+              items: [
+                { name: "74 Reis", price: "2,50 €" },
+                { name: "75 Bulgur", price: "2,50 €" },
+                { name: "76 Beilagensalat", price: "3,50 €" }
+              ]
+            }
+          ]
+        },
+        {
+          id: "kinder",
+          title: "Für Kinder",
+          sections: [
+            {
+              items: [
+                { name: "84 Falafel mit Sauce und Salat", price: "7,50 €" },
+                { name: "85 Spieß mit Salat und Reis", price: "8,50 €" },
+                { name: "86 Köfte mit Salat und Reis", price: "8,50 €" }
+              ]
+            }
+          ]
+        },
+        {
+          id: "dessert",
+          title: "Dessert",
+          sections: [
+            {
+              items: [{ name: "87 Baklava (3 Stück, mit Sahne, Zimt und Walnuss)", price: "4,20 €" }]
+            }
+          ]
+        },
+        {
+          id: "biere",
+          title: "Biere",
+          sections: [
+            {
+              items: [
+                { name: "Früh Kölsch", price: "3,00 € / 5,00 €" },
+                { name: "Schlösser Alt", price: "3,00 € / 5,00 €" },
+                { name: "Jever Pils", price: "3,00 € / 5,00 €" },
+                { name: "Brinkhoffs Nr. 1", price: "3,00 € / 5,00 €" },
+                { name: "Jever Fun (alkoholfrei)", price: "3,00 € / 5,00 €" },
+                { name: "Malz", price: "3,00 € / 5,00 €" },
+                { name: "Hefeweizen", price: "5,00 €" },
+                { name: "Weizen, alkoholfrei", price: "5,00 €" }
+              ]
+            }
+          ]
+        },
+        {
+          id: "softdrinks",
+          title: "Alkoholfreie Getränke",
+          sections: [
+            {
+              items: [
+                { name: "Fanta / Cola / Sprite", price: "3,00 € / 4,50 €" },
+                { name: "Selters Mineralwasser (0,25l / 0,75l)", price: "2,80 € / 5,00 €" },
+                { name: "Tonic, Bitter Lemon", price: "3,50 €" },
+                { name: "Säfte / Saftschorle", price: "3,50 € / 5,00 €" },
+                { name: "Bionade (0,33l)", price: "4,00 €" },
+                { name: "Fassbrause (0,33l)", price: "4,00 €" }
+              ]
+            }
+          ]
+        },
+        {
+          id: "warme-getraenke",
+          title: "Warme Getränke",
+          sections: [
+            {
+              items: [
+                { name: "Kaffee", price: "2,80 €" },
+                { name: "Espresso", price: "2,00 €" },
+                { name: "Doppelter Espresso", price: "3,50 €" },
+                { name: "Milchkaffee", price: "3,20 €" },
+                { name: "Cappuccino", price: "3,20 €" },
+                { name: "Türkischer Tee (klein)", price: "1,50 €" },
+                { name: "Frische Minze", price: "3,00 €" },
+                { name: "Tee, verschiedene Sorten", price: "2,50 €" },
+                { name: "Heiße Zitrone", price: "3,00 €" }
+              ]
+            }
+          ]
+        },
+        {
+          id: "spirituosen",
+          title: "Spirituosen",
+          sections: [
+            {
+              items: [
+                { name: "Ouzo", price: "3,00 €" },
+                { name: "Rum", price: "3,00 €" },
+                { name: "103", price: "3,00 €" },
+                { name: "Veterano", price: "3,00 €" },
+                { name: "Grappa", price: "3,00 €" },
+                { name: "Wodka", price: "3,00 €" },
+                { name: "Baileys", price: "3,00 €" },
+                { name: "Averna", price: "3,00 €" },
+                { name: "Sambuca", price: "3,00 €" },
+                { name: "Café Oriental", price: "3,00 €" },
+                { name: "Fernet Branca", price: "3,00 €" },
+                { name: "Ramazotti", price: "3,00 €" },
+                { name: "Jägermeister", price: "3,00 €" }
+              ],
+              note: "Alle Spirituosen: 3,00 €"
+            }
+          ]
+        },
+        {
+          id: "weinkarte",
+          title: "Weinkarte",
+          sections: [
+            {
+              title: "Weißwein (0,2l)",
+              items: [
+                {
+                  name: "Grauburgunder",
+                  price: "4,60 €",
+                  description: "Volle Frucht und ausgeprägter Geschmack."
+                },
+                {
+                  name: "Riesling (enthält Sulfite)",
+                  price: "4,60 €",
+                  description: "Ein edler Freund aus dem Rheingau."
+                }
+              ]
+            },
+            {
+              title: "Rotwein (0,2l)",
+              items: [
+                { name: "Montepulciano d'Abruzzo", price: "4,60 €" },
+                {
+                  name: "Merlot (enthält Sulfite)",
+                  price: "4,60 €",
+                  description: "Rebsorte Merlot – hat die Frucht, die ihm nachgesagt wird. Passt immer!"
+                }
+              ]
+            },
+            {
+              title: "Weinschorle",
+              items: [{ name: "Weißweinschorle (enthält Sulfite)", price: "4,00 €" }]
+            }
+          ]
+        }
+      ];
+
+      document.addEventListener("DOMContentLoaded", () => {
+        const yearSpan = document.getElementById("current-year");
+        if (yearSpan) {
+          yearSpan.textContent = new Date().getFullYear();
+        }
+
+        const categoryList = document.querySelector(".menu-categories");
+        const menuContent = document.getElementById("menu-panel");
+
+        if (!categoryList || !menuContent || menuData.length === 0) {
+          return;
+        }
+
+        let activeCategoryId = menuData[0].id;
+        const buttons = [];
+
+        const setActiveCategory = (categoryId) => {
+          const category = menuData.find((entry) => entry.id === categoryId);
+          if (!category) {
+            return;
+          }
+
+          activeCategoryId = categoryId;
+          buttons.forEach((btn) => {
+            const isActive = btn.dataset.category === categoryId;
+            btn.classList.toggle("is-active", isActive);
+            btn.setAttribute("aria-selected", isActive ? "true" : "false");
+            btn.setAttribute("tabindex", isActive ? "0" : "-1");
+            if (isActive) {
+              menuContent.setAttribute("aria-labelledby", btn.id);
+            }
+          });
+
+          const sectionsHtml = category.sections
+            .map((section) => {
+              const itemsHtml = (section.items || [])
+                .map((item) => {
+                  const priceHtml = item.price
+                    ? `<span class="menu-item-price">${item.price}</span>`
+                    : "";
+                  const descriptionHtml = item.description
+                    ? `<p class="menu-item-description">${item.description}</p>`
+                    : "";
+                  return `
+                    <li class="menu-item">
+                      <div class="menu-item-header">
+                        <span class="menu-item-name">${item.name}</span>
+                        ${priceHtml}
+                      </div>
+                      ${descriptionHtml}
+                    </li>
+                  `;
+                })
+                .join("");
+
+              const sectionTitle = section.title
+                ? `<h4>${section.title}</h4>`
+                : "";
+              const sectionNote = section.note
+                ? `<p class="menu-note">${section.note}</p>`
+                : "";
+
+              return `
+                <div class="menu-section">
+                  ${sectionTitle}
+                  <ul class="menu-items">
+                    ${itemsHtml}
+                  </ul>
+                  ${sectionNote}
+                </div>
+              `;
+            })
+            .join("");
+
+          const descriptionHtml = category.description
+            ? `<p class="menu-category-description">${category.description}</p>`
+            : "";
+
+          menuContent.innerHTML = `
+            <div class="menu-content-header">
+              <h3>${category.title}</h3>
+              ${descriptionHtml}
+            </div>
+            ${sectionsHtml}
+          `;
+
+          menuContent.scrollTop = 0;
+        };
+
+        const focusButtonByIndex = (index) => {
+          const target = buttons[index];
+          if (target) {
+            target.focus();
+            setActiveCategory(target.dataset.category);
+          }
+        };
+
+        menuData.forEach((category, index) => {
+          const button = document.createElement("button");
+          button.type = "button";
+          button.className = "menu-category-button";
+          button.dataset.category = category.id;
+          button.id = `menu-tab-${category.id}`;
+          button.setAttribute("role", "tab");
+          button.setAttribute("aria-selected", index === 0 ? "true" : "false");
+          button.setAttribute("tabindex", index === 0 ? "0" : "-1");
+          button.textContent = category.title;
+
+          button.addEventListener("click", () => setActiveCategory(category.id));
+          button.addEventListener("keydown", (event) => {
+            const currentIndex = buttons.indexOf(button);
+            if (currentIndex === -1) {
+              return;
+            }
+
+            switch (event.key) {
+              case "ArrowDown":
+              case "ArrowRight":
+                event.preventDefault();
+                focusButtonByIndex((currentIndex + 1) % buttons.length);
+                break;
+              case "ArrowUp":
+              case "ArrowLeft":
+                event.preventDefault();
+                focusButtonByIndex((currentIndex - 1 + buttons.length) % buttons.length);
+                break;
+              case "Home":
+                event.preventDefault();
+                focusButtonByIndex(0);
+                break;
+              case "End":
+                event.preventDefault();
+                focusButtonByIndex(buttons.length - 1);
+                break;
+              default:
+                break;
+            }
+          });
+
+          categoryList.appendChild(button);
+          buttons.push(button);
+        });
+
+        setActiveCategory(activeCategoryId);
+      });
+    </script>
+  </body>
+</html>
